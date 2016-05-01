@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+  width: 100%;
+}
+
+a {
+  color: #00B7FF;
+}
+.header,.secondary-header{
+    background-color: #424242;
+}
+.feed{
+  color:green;
+}
+.logo{
+  width: 100%;
+}
+
+#notification{
+  /*margin-left: 50px;*/
+  color: #4caf50
+}
+#profile-pic{
+  width: 40px;
+  margin-top: 10px;
+}
+#search{
+  margin-bottom: 0px;
+}
+/*#comment-alert{
+  width: 10%;
+}*/
+/*.dropdown{
+  margin-left: 45px;
+}*/
+
+/*#menu{
+  width: 17%
+}*/
+
+#chat_bubble_outline{
+  color: darkgoldenrod;
+}
+.trending{
+    color: green;
+}
+.hot{
+    color:darkgoldenrod;
+}
+.followed{
+    color: cyan;
+}
+.notification,.trending{
+    color: #4caf50;
+}
+#vertical-line{
+    border-right: 1.5px solid #212121;
+    width: 10px;
+    height: 52px;
+    margin-top: 5px;
+    margin-left: -84px;;
+}
+.card.medium{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}

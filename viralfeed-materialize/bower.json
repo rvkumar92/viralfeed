@@ -1,0 +1,21 @@
+{
+  "name": "viralfeed-materialize",
+  "description": "",
+  "main": "",
+  "authors": [
+    "rvkumar"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "Materialize": "materialize#^0.97.6"
+  }
+}
