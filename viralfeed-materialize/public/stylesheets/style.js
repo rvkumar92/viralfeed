@@ -57,9 +57,45 @@ export default StyleSheet.create({
         "marginTop": 5,
         "marginLeft": -84
     },
-    "cardmedium": {
-        "width": 600,
+    "cardsmall": {
+        "width": 400,
         "marginLeft": "auto",
-        "marginRight": "auto"
+        "marginRight": "auto",
+        "height": "auto !important"
+    },
+    "user-profile": {
+        "height": 2.5,
+        "width": 2.5
+    },
+    "add": {
+        "backgroundColor": "#eaeaea",
+        "borderRadius": "50%"
+    },
+    "done": {
+        "backgroundColor": "#4caf50",
+        "color": "white",
+        "borderRadius": "50%"
+    },
+    "upvotes": {
+        "fontSize": 12,
+        "fontWeight": 400,
+        "color": "#919191",
+        "paddingLeft": 10
+    },
+    "upvote": {
+        "color": "#919191",
+        "paddingLeft": 5
+    },
+    "downvote": {
+        "marginLeft": 20
+    },
+    "share": {
+        "marginLeft": 20
+    },
+    "comments": {
+        "fontSize": 12,
+        "fontWeight": 400,
+        "color": "#919191",
+        "paddingLeft": 10
     }
 });

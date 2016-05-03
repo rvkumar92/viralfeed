@@ -61,8 +61,41 @@ a {
     margin-top: 5px;
     margin-left: -84px;;
 }
-.card.medium{
-    width: 600px;
+.card.small{
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
+    height: auto !important;
+}
+.user-profile{
+  height: 2.5em;
+  width: 2.5em;
+}
+#add{
+  background-color: #eaeaea;
+  border-radius: 50%;
+}
+#done{
+  background-color: #4caf50;
+  color: white;
+  border-radius: 50%;
+}
+.upvotes{
+  font-size: 12px;
+  font-weight: 400;
+  color: #919191;
+  padding-left: 10px;
+}
+.upvote{
+  color: #919191;
+  padding-left:5px;
+}
+.downvote, .share{
+  margin-left: 20px;
+}
+.comments{
+  font-size: 12px;
+  font-weight: 400;
+  color: #919191;
+  padding-left: 10px;
 }
