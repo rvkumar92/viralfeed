@@ -10,10 +10,10 @@ var Viralfeed = React.createClass({
         <Header />
         <SecondaryHeader />
         <div className="row">
-          <div className="col m5 offset-m1">
+          <div className="col m5 offset-m2">
             <ViralContent />
           </div>
-          <div className="col m6">
+          <div className="col m5">
             <SideBar />
           </div>
         </div>

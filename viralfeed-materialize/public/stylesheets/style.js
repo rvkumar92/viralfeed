@@ -97,5 +97,19 @@ export default StyleSheet.create({
         "fontWeight": 400,
         "color": "#919191",
         "paddingLeft": 10
+    },
+    "circle-sidebar": {
+        "backgroundColor": "gray",
+        "borderRadius": "50%",
+        "height": 30,
+        "width": "30px !important"
+    },
+    "follow-btn": {
+        "color": "#4caf50",
+        "fontSize": 12,
+        "fontWeight": 500
+    },
+    "tooltip": {
+        "backgroundColor": "#4caf50"
     }
 });

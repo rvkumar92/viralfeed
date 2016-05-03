@@ -8,9 +8,9 @@ var ViralContent = React.createClass({
               <img src="/images/deadpool.png" alt="username" className="left circle responsive-img user-profile"/>
               <p><span className="left">Deadpooli2f</span></p>
               <i className="material-icons right">more_vert</i>
-               <i className="material-icons right" id="add">add</i>
+               <i className="material-icons right tooltipped" data-tooltip-id="tooltip" data-position="top" data-tooltip="Follow" id="add">add</i>
               <br />
-              <p className="left" style={{fontWeight:200,fontSize: '12px'}}>2,905 followers</p>
+              <p className="left" style={{fontWeight:400,fontSize: '12px',color: '#919191'}}>2,905 followers</p>
               <br />
               <div className="divider"></div>
               <span className="left card-title activator grey-text text-darken-4" style={{fontWeight:400}}>Married Life</span>
@@ -25,7 +25,11 @@ var ViralContent = React.createClass({
             <div className="divider"></div>
              <div className="card-content">
                <ul style={{color: 'grey'}}>
-                 <li className="left"><i className="material-icons">thumb_up</i><span className="upvote">Upvote</span></li>
+                <div className="chip left">
+                        <i className="material-icons">thumb_up</i>
+                    <span>Upvote</span>
+                    </div>
+
                  <li><i className="material-icons left downvote">thumb_down</i></li>
                  <li><i className="material-icons left share">open_with</i></li>
                  <li><i className="material-icons right">chat_bubble</i></li>
@@ -40,7 +44,7 @@ var ViralContent = React.createClass({
               <i className="material-icons right">more_vert</i>
                <i className="material-icons right" id="done">done</i>
               <br />
-              <p className="left" style={{fontWeight:200,fontSize: '12px'}}>1,422 followers</p>
+              <p className="left" style={{fontWeight:400,fontSize: '12px',color:'#919191'}}>1,422 followers</p>
               <br />
               <div className="divider"></div>
               <p className="left card-title activator grey-text text-darken-4" style={{fontWeight:400,fontSize:'15px',lineHeight:'20px'}}>
@@ -57,7 +61,10 @@ var ViralContent = React.createClass({
             <div className="divider"></div>
              <div className="card-content">
                <ul style={{color: 'grey'}}>
-                 <li className="left"><i className="material-icons">thumb_up</i><span className="upvote">Upvote</span></li>
+                    <div className="chip left" style={{background: '#ffa000'}}>
+                        <i className="material-icons">thumb_up</i>
+                    <span>Upvote</span>
+                    </div>
                  <li><i className="material-icons left downvote">thumb_down</i></li>
                  <li><i className="material-icons left share">open_with</i></li>
                  <li><i className="material-icons right">chat_bubble</i></li>

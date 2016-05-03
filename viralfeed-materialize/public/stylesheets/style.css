@@ -99,3 +99,17 @@ a {
   color: #919191;
   padding-left: 10px;
 }
+.circle-sidebar{
+  background-color: gray;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px !important;
+}
+.follow-btn{
+  color: #4caf50;
+  font-size: 12px;
+  font-weight: 500;
+}
+#tooltip{
+  background-color: #4caf50;
+}
