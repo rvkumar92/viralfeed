@@ -13,7 +13,7 @@ Another screenshot
 
 ___
 ###Execution
-- Clone the repository and do 
+- Clone the repository; navigate to viralfeed-materialize and do 
 ```npm install && bower install``` 
 - Open 2 terminals, run ```gulp``` in one and ```npm start``` in another.
 - Navigate to ```http://localhost:3000``` in the browser.
